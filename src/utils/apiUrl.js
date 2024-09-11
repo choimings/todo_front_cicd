@@ -1,10 +1,9 @@
-const GET_TASKS_API_URL = 'https://campinginfoback.cmehapdls.com/get_tasks';
-const POST_TASKS_API_URL = 'https://campinginfoback.cmehapdls.com/post_tasks';
-const DELETE_TASKS_API_URL =
-  'https://campinginfoback.cmehapdls.com/delete_task';
+const GET_TASKS_API_URL = 'https://todoback.cmehapdls.com/get_tasks';
+const POST_TASKS_API_URL = 'https://todoback.cmehapdls.com/post_tasks';
+const DELETE_TASKS_API_URL = 'https://todoback.cmehapdls.com/delete_task';
 const UPDATE_COMPLETED_TASKS_URL =
-  'https://campinginfoback.cmehapdls.com/update_completed_task';
-const UPDATE_TASK_API_URL = 'https://campinginfoback.cmehapdls.com/update_task';
+  'https://todoback.cmehapdls.com/update_completed_task';
+const UPDATE_TASK_API_URL = 'https://todoback.cmehapdls.com/update_task';
 
 export {
   GET_TASKS_API_URL,
