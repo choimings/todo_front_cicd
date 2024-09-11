@@ -8,6 +8,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
+  console.log('test1');
   return (
     <BrowserRouter>
       <div className="App">
