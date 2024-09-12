@@ -50,5 +50,5 @@ COPY ./nginx.conf /etc/nginx/conf.d/default.conf
 EXPOSE 80
 
 
-# Start Nginx in the foreground (do not daemonize)
+
 ENTRYPOINT [ "nginx", "-g", "daemon off;" ]

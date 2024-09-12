@@ -9,6 +9,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   console.log('test6');
+
   return (
     <BrowserRouter>
       <div className="App">
