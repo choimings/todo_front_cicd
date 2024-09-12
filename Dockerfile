@@ -23,7 +23,7 @@ FROM nginx:1.23-alpine
 WORKDIR /usr/share/nginx/html
 
 # 기존 도커 컨테이너 삭제
-RUN rm -rf *
+RUN rm -rf ./*
 
 # nginx 디렉토리에 리액트 빌드 파일 복사
 COPY --from=build /app/build .
