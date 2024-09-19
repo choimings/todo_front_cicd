@@ -25,12 +25,6 @@ WORKDIR /usr/share/nginx/html
 # 기존 도커 컨테이너 삭제
 RUN rm -rf ./*
 
-# Copy the built React app from the build stage to the Nginx HTML directory
-COPY --from=build /app/build /usr/share/nginx/html
-
-# Copy the Nginx configuration file
-COPY ./nginx.conf /etc/nginx/conf.d/default.conf
-
 # nginx 디렉토리에 리액트 빌드 파일 복사
 COPY --from=build /app/build .
 
